@@ -1,3 +1,4 @@
+#This is a translator#Read The phrase
 def translate(phrase):
     translator=""
     for letters in phrase:
@@ -10,4 +11,5 @@ def translate(phrase):
             translator=translator+letters
     return translator
 
+#Read The phrase
 print(translate(raw_input("Enter any phrase: ")))
